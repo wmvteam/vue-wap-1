@@ -123,7 +123,6 @@
 </template>
 
 <script>
-import TestChild from './component/TestChild.vue'
 export default {
     name:'test',
     data(){
@@ -203,7 +202,7 @@ export default {
     watch:{
     },
     components: {
-        TestChild
+
     },
     mounted(){
         /*this.$messagebox.confirm('确定执行此操作?').then(action => {

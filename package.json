@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.haiziwang.com:frontend/hxy.git"
+    "url": ""
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
