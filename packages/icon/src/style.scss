@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family: rkhy-icons;
+    src: url(../../__assets/fonts/rkhy-icons.woff?t=1472440741) format('woff'), url(../../__assets/fonts/rkhy-icons.ttf?t=1472440741) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+[class*=" rkhy-icon-"], [class^=rkhy-icon-] {
+    font-family: rkhy-icons !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.rkhy-icon-arrow-down:before {
+    content: "\e600"
+}
+
+.rkhy-icon-arrow-left:before {
+    content: "\e601"
+}
+
+.rkhy-icon-arrow-right:before {
+    content: "\e602"
+}
+
+.rkhy-icon-arrow-up:before {
+    content: "\e603"
+}
+
+.rkhy-icon-caret-bottom:before {
+    content: "\e604"
+}
+
+.rkhy-icon-caret-left:before {
+    content: "\e605"
+}
+
+.rkhy-icon-caret-right:before {
+    content: "\e606"
+}
+
+.rkhy-icon-caret-top:before {
+    content: "\e607"
+}
+
+.rkhy-icon-check:before {
+    content: "\e608"
+}
+
+.rkhy-icon-circle-check:before {
+    content: "\e609"
+}
+
+.rkhy-icon-circle-close:before {
+    content: "\e60a"
+}
+
+.rkhy-icon-circle-cross:before {
+    content: "\e60b"
+}
+
+.rkhy-icon-close:before {
+    content: "\e60c"
+}
+
+.rkhy-icon-upload:before {
+    content: "\e60d"
+}
+
+.rkhy-icon-d-arrow-left:before {
+    content: "\e60e"
+}
+
+.rkhy-icon-d-arrow-right:before {
+    content: "\e60f"
+}
+
+.rkhy-icon-d-caret:before {
+    content: "\e610"
+}
+
+.rkhy-icon-date:before {
+    content: "\e611"
+}
+
+.rkhy-icon-delete:before {
+    content: "\e612"
+}
+
+.rkhy-icon-document:before {
+    content: "\e613"
+}
+
+.rkhy-icon-edit:before {
+    content: "\e614"
+}
+
+.rkhy-icon-information:before {
+    content: "\e615"
+}
+
+.rkhy-icon-loading:before {
+    content: "\e616"
+}
+
+.rkhy-icon-menu:before {
+    content: "\e617"
+}
+
+.rkhy-icon-message:before {
+    content: "\e618"
+}
+
+.rkhy-icon-minus:before {
+    content: "\e619"
+}
+
+.rkhy-icon-more:before {
+    content: "\e61a"
+}
+
+.rkhy-icon-picture:before {
+    content: "\e61b"
+}
+
+.rkhy-icon-plus:before {
+    content: "\e61c"
+}
+
+.rkhy-icon-search:before {
+    content: "\e61d"
+}
+
+.rkhy-icon-setting:before {
+    content: "\e61e"
+}
+
+.rkhy-icon-share:before {
+    content: "\e61f"
+}
+
+.rkhy-icon-star-off:before {
+    content: "\e620"
+}
+
+.rkhy-icon-star-on:before {
+    content: "\e621"
+}
+
+.rkhy-icon-time:before {
+    content: "\e622"
+}
+
+.rkhy-icon-warning:before {
+    content: "\e623"
+}
+
+.rkhy-icon-delete2:before {
+    content: "\e624"
+}
+
+.rkhy-icon-upload2:before {
+    content: "\e627"
+}
+
+.rkhy-icon-view:before {
+    content: "\e626"
+}
+
+.rkhy-icon-loading {
+    animation: rotating 1s linear infinite
+}
+
+.rkhy-icon--right {
+    margin-left: 5px
+}
+
+.rkhy-icon--left {
+    margin-right: 5px
+}

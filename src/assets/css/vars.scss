@@ -1,0 +1,31 @@
+@import './rem';
+
+// colors
+$bg-color-title:        #fff;       // 标题栏背景色
+$bg-color-statusbar:    #fff;       // 状态栏背景色
+$text-color-primary:    #121212;       // 重要文字信息
+$text-color-secondary:  #666;       // 次要文字信息
+$text-color-assistant:  #999;       // 辅助文字信息
+$color-primary:         #ff397e;    // 主前景色,用于菜单，按钮，文字的激活状态
+$color-mute:            #c6c6c6;    // 禁用状态背景色
+$bg-color:              #f4f4f4;    // 主背景色
+$divide-color:          #e7e7e7;    // 分割线色
+$tip-color:             #f66009;    // 重要提示信息
+$bg-color-tag:          #ffa800;    // 标签背景色
+$special-color:         #00baf7;    // 特殊信息颜色
+$mask-color: rgba(0, 0, 0, .7);     // 蒙层背景色
+$popup-color: rgba(0, 0, 0, .3);    // 弹层背景色
+
+// font family
+$font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+// font size
+$font-size-xxxxl:       rem(40);
+$font-size-xxxl:        rem(36);
+$font-size-xxl:         rem(34);
+$font-size-xl:          rem(32);
+$font-size-l:           rem(30);
+$font-size-m:           rem(28);
+$font-size-s:           rem(26);
+$font-size-xs:          rem(24);
+$font-size-xxs:         rem(22);

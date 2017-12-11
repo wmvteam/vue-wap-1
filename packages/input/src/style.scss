@@ -1,0 +1,144 @@
+@import '../../__assets/css/rem';
+
+.rkhy-input, .rkhy-input__inner {
+    width: 100%;
+    display: inline-block
+}
+
+.rkhy-input__inner{
+    box-sizing: border-box;
+    background-image: none
+}
+
+.rkhy-input {
+    position: relative;
+    font-size:rem(14)
+}
+
+.rkhy-input.is-disabled .rkhy-input__inner {
+    background-color: #eef1f6;
+    border-color: #d1dbe5;
+    color: #bbb;
+    cursor: not-allowed
+}
+
+.rkhy-input.is-disabled .rkhy-input__inner::-webkit-input-placeholder {
+    color: #bfcbd9
+}
+
+.rkhy-input.is-disabled .rkhy-input__inner::-moz-placeholder {
+    color: #bfcbd9
+}
+
+.rkhy-input.is-disabled .rkhy-input__inner:-ms-input-placeholder {
+    color: #bfcbd9
+}
+
+.rkhy-input.is-disabled .rkhy-input__inner::placeholder {
+    color: #bfcbd9
+}
+
+.rkhy-input.is-active .rkhy-input__inner {
+    outline: 0;
+    border-color: #20a0ff
+}
+
+.rkhy-input__inner {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #bfcbd9;
+    color: #1f2d3d;
+    font-size: inherit;
+    outline: 0;
+    padding:rem(20);
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1)
+}
+
+.rkhy-input__inner::-webkit-input-placeholder {
+    color: #97a8be
+}
+
+.rkhy-input__inner::-moz-placeholder {
+    color: #97a8be
+}
+
+.rkhy-input__inner:-ms-input-placeholder {
+    color: #97a8be
+}
+
+.rkhy-input__inner::placeholder {
+    color: #97a8be
+}
+
+.rkhy-input__inner:hover {
+    border-color: #8391a5
+}
+
+.rkhy-input__inner:focus {
+    outline: 0;
+    border-color: #20a0ff
+}
+
+.rkhy-input__icon {
+    position: absolute;
+    width: 35px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    text-align: center;
+    color: #bfcbd9;
+    transition: all .3s
+}
+
+.rkhy-input__icon:after {
+    content: '';
+    height: 100%;
+    width: 0;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.rkhy-input__icon + .rkhy-input__inner {
+    padding-right: 35px
+}
+
+.rkhy-input__icon.is-clickable:hover {
+    cursor: pointer;
+    color: #8391a5
+}
+
+.rkhy-input__prefix{
+    position: absolute;
+    left:rem(10);
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+    transition: all .3s
+}
+.rkhy-input__suffix{
+    position: absolute;
+    right:rem(10);
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+    transition: all .3s
+}
+.rkhy-input--prefix input{
+    padding-left: rem(40);
+}
+.rkhy-input--suffix input{
+    padding-right: rem(40);
+}
+.rkhy-input__icon {
+    position: absolute;
+    width: 35px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    text-align: center;
+    color: #bfcbd9;
+    transition: all .3s
+}
