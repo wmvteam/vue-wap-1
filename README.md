@@ -1,6 +1,12 @@
 # vue-wap
 一套VUE移动端架构，集成了移动端常用的组件
 
+![](https://github.com/weiyou789/blog/blob/master/imgs/img01.png) 
+
+常用的业务组件
+
+![](https://github.com/weiyou789/blog/blob/master/imgs/img02.png) 
+
 # 特点：
 
 1.集成了80%以上常用的移动端组件库，使用方式：比如button就可以直接<rkhy-button></rkhy-button>无须手动引用，详细参数配置请看packages里每个组件里的src文件价里的.vue文件。详细示例请启动后到localhost:9018/test下面查看。
